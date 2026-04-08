@@ -1,0 +1,28 @@
+{
+  "name": "comp.sec.300-secure-biometric-authentication-web-app",
+  "version": "1.0.0",
+  "description": "A school project for course COMP.SEC.300 Secure Programming",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TopiasVuori/COMP.SEC.300-Secure-Biometric-Authentication-Web-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TopiasVuori/COMP.SEC.300-Secure-Biometric-Authentication-Web-App/issues"
+  },
+  "homepage": "https://github.com/TopiasVuori/COMP.SEC.300-Secure-Biometric-Authentication-Web-App#readme",
+  "dependencies": {
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1"
+  }
+}

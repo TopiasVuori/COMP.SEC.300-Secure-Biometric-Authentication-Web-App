@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure Biometric Auth</title>
+    <script defer src="js/face-api.min.js"></script>
+    <script defer src="js/app.js"></script>
+    <style>
+        body { font-family: sans-serif; text-align: center; background: #f4f4f4; }
+        #video-container { position: relative; display: inline-block; }
+        video { border: 2px solid #333; border-radius: 8px; }
+        .controls { margin-top: 20px; }
+        button { padding: 10px 20px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Secure Face Registration</h1>
+    <p id="status">Loading Security Models...</p>
+
+    <div id="video-container">
+        <video id="webcam" width="640" height="480" autoplay muted></video>
+    </div>
+
+    <div class="controls">
+        <input type="text" id="username" placeholder="Enter Username">
+        <button id="reg-btn">Register</button>
+        <button id="login-btn">Login with Face</button> </div>
+    </div>
+</body>
+</html>
