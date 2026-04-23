@@ -117,3 +117,11 @@ While rate limiting is active, the fuzzy-matching nature of biometrics means an 
 - **Purpose Limitation:** Biometric data is collected solely for authentication.
 - **Integrity and Confidentiality:** Ensured through AES-256 encryption.
 - **Data Minimization:** No raw images are stored; only non-reversible mathematical embeddings.
+
+## AI Usage Disclosure
+
+In accordance with academic integrity guidelines, AI tools (Gemini) were utilized in the development of this project for the following purposes:
+
+* **Planning & Architecture:** Assisted in the initial design of the "Defense in Depth" strategy and the logical flow between client-side extraction and server-side encryption.
+* **Placeholder & Boilerplate Code:** Used to generate initial templates for the Express.js server and standard cryptographic function structures (AES-256 and PBKDF2), which were then manually edited.
+* **Documentation:** Assisted in formatting the README.
