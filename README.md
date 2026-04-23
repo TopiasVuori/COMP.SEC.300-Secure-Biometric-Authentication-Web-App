@@ -41,7 +41,23 @@ Ensure the public/models folder contains the required face-api.js weights:
 ```
 node server.js
 ```
+## Project Structure
 
+```text
+.
+├── public/
+│   ├── js/
+│   │   ├── app.js            # Client-side biometric logic
+│   │   └── face-api.min.js   # Face-api library
+│   ├── models/               # AI Model weights (JSON and shard files)
+│   └── index.html            # Main UI / Frontend entry point
+├── .env                      # Sensitive configuration (Keys & Salts) (You need to add this)
+├── .gitignore                # Excludes node_modules and .env from Git
+├── README.md                 # Project documentation
+├── package-lock.json         # Locked dependency versions
+├── package.json              # Project dependencies and scripts
+└── server.js                 # Express server and Cryptographic logic
+```
 ## Security Implementation Documentation
 This project focuses on the principle of Defense in Depth.
 
